@@ -1,0 +1,26 @@
+[Unit]
+Description=Pihole container using Podman
+After=local-fs.target
+
+[Container]
+Image=pihole/pihole:latest
+Volume=/etc/pihole:/etc/pihole:Z
+ExposeHostPort=53/tcp
+ExposeHostPort=53/udp
+ExposeHostPort=80
+ExposeHostPort=443
+Environment=TZ=America/New_York
+Environment=FTLCONF_dns_listeningMode=ALL
+Secret=pihole_password,type=env,target=FTLCONF_webserver_api_password
+
+[Service]
+Restart=always
+# Extend Timeout to allow time to pull the image
+TimeoutStartSec=900
+
+[Install]
+# Start by default on boot
+WantedBy=multi-user.target default.target
+
+# to test
+# podman run -v=./etc/pihole:/etc/pihole:Z --expose=53/tcp --expose=53/udp --expose=80 --expose=443 -e TZ=America/New_York -e FTLCONF_webserver_api_password=xxxxx -e FTLCONF_dns_listeningMode=ALL pihole/pihole

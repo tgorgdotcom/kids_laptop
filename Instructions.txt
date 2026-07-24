@@ -1,0 +1,29 @@
+FEDORA KINOITE for computer setup
+1. Setup wireless connection
+2. Add child user
+3. Remove Firefox icon
+https://docs.fedoraproject.org/en-US/atomic-desktops/tips-and-tricks/#_hiding_the_default_browser_firefox
+sudo mkdir -p /usr/local/share/applications && sudo cp /usr/share/applications/org.mozilla.firefox.desktop /usr/local/share/applications/ && sudo sed -i "2a\\NoDisplay=true" /usr/local/share/applications/org.mozilla.firefox.desktop && sudo update-desktop-database /usr/local/share/applications/
+
+- Note that this will not remove firefox entry from favorites
+
+4. Install malcontent malcontent-control into ostree
+sudo rpm-ostree install malcontent malcontent-control
+
+5. Install podman
+6. Reboot
+7. Configure Parental Contols
+- restrict krdc/podman
+- restrict installing applications
+
+LOCAL PIHOLE for webblocking
+1. Create a podman secret for the password
+echo -n "xxxx" | sudo podman secret create pihole_password -
+
+2. Place pihole.container in /etc/containers/systemd folder
+3. Make /etc/pihole folder
+4. Run systemctl daemon-reload
+5. Go to the PiHole admin https://10.88.0.3/admin
+6. Block all (.*) and allow the allowlist (get from google)
+7. Set network to use the dns
+   - http://pi.hole/admin should work now
