@@ -17,11 +17,8 @@ kids.scholastic.com
 factmonster.com
 wonderopolis.org
 planetpals.com
-tgorg.net
 pbskids.org
 bedtimemath.org
 khanacademy.org
 canvas.apps.chrome
 figurethis.nctm.org
-192.168.50.10
-192.168.50.10:8889
