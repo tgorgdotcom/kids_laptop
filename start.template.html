@@ -1,17 +1,52 @@
 <http>
     <head>
         <title>Welcome</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         <style>
-
+            h1 {
+                text-shadow: 2px 2px 4px #000000;
+            }
+            .row a {
+                padding-bottom: 20px;
+            }
+            a {
+                text-decoration: none;
+            }
+            div.card {
+                padding-top: 5px;
+                box-shadow: 2px 2px 4px #777777aa;
+            }
+            div.card:hover {
+                background-color: #eeeeee;
+                box-shadow: 0px 0px 8px #ffffff;
+            }
+            div.card .card-img-top {
+                background-color: coral;
+                width: 40%;
+                padding: 5px;
+                margin: 0 auto;
+            }
+            div.card .card-body {
+                padding: 9px;
+                text-underline-position: none;
+                overflow: hidden;
+                line-height: 1.2em;
+                font-size: 13px;
+                text-overflow: ellipsis;
+            }
+            .card-row {
+                height: 155px;
+            }
         </style>
     </head>
-    <body>
-        <div class="pages">
-            <a href="{site_url}"><div>
-                <img src="{site_img}" />
-                {site_title}
-            </div></a>
+    <body style="margin: 50px; background-image: url({random_image}); background-size: cover; color: #ffffff; position: relative;">
+        <div class="container d-flex flex-column align-items-center justify-content-center" style="max-width: 1200px; height: 100%;">
+            <h1 style="margin-bottom: 30px;">Welcome!</h1>
             {site_list}
+        </div>
+        <div style="position: absolute; bottom: 0px; left: 0px">
+            {artist_name} @ unsplash
         </div>
     </body>
 </http>
