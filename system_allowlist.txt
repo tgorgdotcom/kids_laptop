@@ -5,7 +5,7 @@ tgorgdotcom.github.io
 
 ############################# sites we don't need to display on startpage
 minecraft.net
-(\.|^)minecraft.net$
+(\.|^)minecraft\.net$
 
 ############################# basic items
 pi.hole
