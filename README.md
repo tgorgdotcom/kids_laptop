@@ -40,9 +40,11 @@ Pull requests for kid sites to be added are most welcome.
    - Make system use pihole for DNS
    - Reboot
 
-4. After reboot, go to the PiHole admin https://pi.hole/admin
-5. Login using your password
-6. Block all (*) and allow the allowlist (get from https://github.com/tgorgdotcom/kids_laptop/blob/main/whitelist.txt)
+4. After reboot, go to the PiHole admin https://pi.hole/admin and login using your password
+5. Add the allowlist url https://raw.githubusercontent.com/tgorgdotcom/kids_laptop/refs/heads/main/whitelist.txt
+6. Disable the builtin "StevenBlack/hosts" blocklist
+7. Add the allow site pi.hole
+8. Add the regex block site all (.*) 
 
 ### Adding a child user:
 
@@ -53,3 +55,5 @@ Use childSetup.sh.  It will:
   - restrict krdc application
   - restrict installing applications
   - set app suitability to everyone
+
+Optionally, set your child's browser to go to https://tgorgdotcom.github.io/kids_laptop/

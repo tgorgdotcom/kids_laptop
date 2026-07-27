@@ -1,31 +1,12 @@
 import urllib.request
 import json
-from html.parser import HTMLParser
-
-
-class TitleParser(HTMLParser):
-
-    def __init__(self):
-        super().__init__()
-        self.in_title = False
-        self.title = ""
-
-    def handle_starttag(self, tag, attrs):
-        if tag.lower() == "title":
-            self.in_title = True
-
-    def handle_endtag(self, tag):
-        if tag.lower() == "title":
-            self.in_title = False
-
-    def handle_data(self, data):
-        if self.in_title:
-            self.title += data
+import re
 
 
 htmlTemplate = ""
 renderedSites = ""
 homepageReqHeaders = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36'}
+titleRegex = re.compile(r'<\s?title[^<>]*\s?>([^<]*)<\/\s?title\s?>', re.IGNORECASE | re.MULTILINE)
 
 with open("start.template.html", "r") as templateFile:
     htmlTemplate = templateFile.read()
@@ -63,9 +44,10 @@ with open("whitelist.txt", "w") as finalList:
             # look for the title of the homepage
             try:
                 with urllib.request.urlopen(homepageReq, timeout=10) as response:
-                    tmpTitleParser = TitleParser()
-                    tmpTitleParser.feed(response.read().decode("utf-8", errors='ignore'))
-                    site_title = tmpTitleParser.title.strip().replace('"', '&quot;')
+                    homepageHtmlStr = response.read().decode("utf-8", errors='ignore')
+                    titleResults = re.search(titleRegex, homepageHtmlStr)
+                    if titleResults != None:
+                        site_title = titleResults.group(1)
 
             except Exception as err:
                 pass

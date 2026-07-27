@@ -1,8 +1,7 @@
 discovertheforest.org
 crayola.com
-#kidsthinkdesign.org
 docs.google.com
-engineergirl.org
+engineerteen.org
 thetoymaker.com
 scratch.mit.edu
 diy.org

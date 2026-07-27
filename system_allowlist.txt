@@ -1,19 +1,28 @@
+############################# sites that support the kids homepage
+images.unsplash.com
+tgorgdotcom.github.io
+
 ############################# sites we don't need to display on startpage
-*.minecraft.net
+minecraft.net
+[^.]*\.minecraft.net$
+
+############################# basic items
+pi.hole
+
 ############################# fedora update sites
-*.fwupd.org
-*.fedoraproject.org
-*.flathub.org
-*.kde.org
-fedora.*
-fedora-mirror.*
-.{0,4}mirror.?\.*
-*.mm.fcix.net
-*.osuosl.org
-*.mirror.rackspace.org
+[^.]*\.fwupd\.org$
+[^.]*\.fedoraproject\.org$
+[^.]*\.flathub\.org$
+[^.]*\.kde\.org$
+^fedora\..*
+^fedora-mirror\..*
+^.{0,4}mirror\.?.*
+[^.]*\.mm.fcix\.net$
+[^.]*\.osuosl\.org$
+[^.]*\.mirror\.rackspace\.org$
 linus.iyte.edu.tr
 distrohub.kyiv.ua
-ftp*
+^ftp.*
 repo.fedora.md
 eu.edge.kernel.org
 distrib-coffee.ipsl.jussieu.fr
@@ -22,8 +31,10 @@ fedora.is
 linux.yz.yamagata-u.ac.jp
 muug.ca
 linuxsoft.cern.ch
+
 ############################# time servers
 fedora.ntp.org
+
 ############################# from https://github.com/anudeepND/whitelist
 0.client-channel.google.com
 1drv.com
@@ -110,6 +121,7 @@ instantmessaging-pa.googleapis.com
 intercom.io
 jquery.com
 jsdelivr.net
+[^.]*\.jsdelivr\.net
 keystone.mwbsys.com
 lastfm-img2.akamaized.net
 licensing.xboxlive.com
