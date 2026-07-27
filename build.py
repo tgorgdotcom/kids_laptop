@@ -72,3 +72,5 @@ with open("whitelist.txt", "w") as finalList:
 with open("index.html", "w") as startFile:
     completedFile = htmlTemplate.replace("{site_list}", renderedSites)
     startFile.write(completedFile)
+
+print("DONE!")
