@@ -36,7 +36,7 @@ assets-cdn.nationalgeographic.com
 ltm.scholastic.com
 i.natgeofe.com
 @@||kastatic.org^
-use.typekit.net
+@@||typekit.net^
 @@||pcdn.co^
 @@||bamgrid.com^
 @@||website-files.com^
@@ -49,6 +49,10 @@ dcf.espn.com
 @@||cws.conviva.com^
 cdn.plyr.io
 api.readalong.ai
+piston-meta.mojang.com
+
+############################# youtube (use with restricted mode for kid-safe stuff)
+@@||youtube.com^
 
 ############################# basic items
 pi.hole
@@ -198,7 +202,7 @@ fedora.as3741.net
 mirror.za.abantu.cloud
 
 ############################# other sites needed for fedora
-@@||fedora.ntp.org^
+@||pool.ntp.org^
 www.gnu.org
 
 ############################# misc
@@ -207,7 +211,6 @@ ohttp-relay-safebrowsing-chrome.google.fastly-edge.com
 ############################# from https://github.com/anudeepND/whitelist
 0.client-channel.google.com
 1drv.com
-2.android.pool.ntp.org
 accounts.google.com
 akamaihd.net
 akamaitechnologies.com
@@ -226,7 +229,7 @@ ax.phobos.apple.com.edgesuite.net
 brightcove.net
 c.s-microsoft.com
 cloudflare-dns.com
-challenges.cloudflare.com
+@@||challenges.cloudflare.com^
 cdn.cloudflare.net
 cdn.embedly.com
 cdn.optimizely.com
@@ -335,7 +338,7 @@ tvdb2.plex.tv
 tvthemes.plexapp.com
 twimg.com
 ui.skype.com
-video-stats.l.google.com
+@@||l.google.com^
 videos.vidible.tv
 widget-cdn.rpxnow.com
 win10.ipv6.microsoft.com
@@ -351,8 +354,17 @@ pings.conviva.com
 cws.conviva.com
 livepassdl.conviva.com
 gfwsl.geforce.com
-appspot-preview.l.google.com
 vidtech.cbsinteractive.com
 continuum.dds.microsoft.com
 connectivitycheck.android.com
 www.msftconnecttest.com
+stun.cloudflare.com
+@@||nel.cloudflare.com^
+@@||diamax.com^
+@@||azurewebsites.com^
+@@||core.windows.net^
+cdn.disneyaccount.com
+cdn.espn.com
+disney.demdes.net
+sw88.nationalgeographic.com
+@@||media.dssott.com

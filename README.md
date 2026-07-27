@@ -43,10 +43,16 @@ Pull requests for kid sites to be added are most welcome.
    - Make system use pihole for DNS
    - Reboot
 
-4. After reboot, go to the PiHole admin https://pi.hole/admin and login using your password
-5. Add the allowlist url https://raw.githubusercontent.com/tgorgdotcom/kids_laptop/refs/heads/main/whitelist.txt
-6. Disable the builtin "StevenBlack/hosts" blocklist
-7. Add the regex block site all (.*) 
+4. Run included setup2.sh.  It will:
+   - Add the allowlist url https://raw.githubusercontent.com/tgorgdotcom/kids_laptop/refs/heads/main/whitelist.txt
+   - Disable the builtin "StevenBlack/hosts" blocklist
+   - Add the regex block site all (.*) 
+   - In Settings > Local DNS settings add the following settings to make sure Youtube runs in restricted mode
+     www.youtube.com             restrict.youtube.com
+     m.youtube.com               restrict.youtube.com
+     youtubei.googleapis.com     restrict.youtube.com
+     youtube.googleapis.com      restrict.youtube.com
+     www.youtube-nocookie.com    restrict.youtube.com
 
 ### Adding a child user:
 
