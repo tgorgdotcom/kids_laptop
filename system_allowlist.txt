@@ -20,6 +20,13 @@ use.typekit.net
 @@||website-files.com^
 @@||kidsafeseal.com^
 @@||urs.pbs.org^
+@@||milieugravity.com^
+@@||wistia.com^
+@@||api.espn.com^
+dcf.espn.com
+@@||cws.conviva.com^
+cdn.plyr.io
+api.readalong.ai
 
 ############################# basic items
 pi.hole
