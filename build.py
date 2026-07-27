@@ -62,7 +62,7 @@ with open("whitelist.txt", "w") as finalList:
             if index % 6 == 5:
                 renderedSites = renderedSites + "</div>"
                 
-            finalList.write(domainName + "\n")
+            finalList.write("@@||" + domainName + "^\n")   # automaticially allow subdomains on the kids list
             index += 1
             
     with open("system_allowlist.txt", "r") as systemList:

@@ -5,8 +5,13 @@ tgorgdotcom.github.io
 
 ############################# sites we don't need to display on startpage
 minecraft.net
-launcher.mojang.com
 @@||minecraft.net^
+launcher.mojang.com
+launchermeta.mojang.com
+csforall.org
+assets-cdn.nationalgeographic.com
+@@||pais.scholastic.com^
+ltm.scholastic.com
 
 ############################# basic items
 pi.hole
@@ -162,7 +167,6 @@ www.gnu.org
 
 ############################# misc
 ohttp-relay-safebrowsing-chrome.google.fastly-edge.com
-optimizationguide-pa.googleapis.com
 
 ############################# from https://github.com/anudeepND/whitelist
 0.client-channel.google.com
@@ -176,17 +180,17 @@ amazonaws.com
 android.clients.google.com
 api.ipify.org
 api.rlje.net
+apis.google.com
 app-api.ted.com
 appleid.apple.com
 apps.skype.com
 appsbackup-pa.clients6.google.com
-appsbackup-pa.googleapis.com
-apt.sonarr.tv
 aspnetcdn.com
-attestation.xboxlive.com
 ax.phobos.apple.com.edgesuite.net
 brightcove.net
 c.s-microsoft.com
+cloudflare-dns.com
+challenges.cloudflare.com
 cdn.cloudflare.net
 cdn.embedly.com
 cdn.optimizely.com
@@ -194,7 +198,6 @@ cdn.vidible.tv
 cdn2.optimizely.com
 cdn3.optimizely.com
 cdnjs.cloudflare.com
-cert.mgt.xboxlive.com
 clientconfig.passport.net
 clients1.google.com
 clients2.google.com
@@ -205,15 +208,10 @@ clients6.google.com
 cpms.spop10.ams.plex.bz
 cpms35.spop10.ams.plex.bz
 cse.google.com
-ctldl.windowsupdate.com
 d2c8v52ll5s99u.cloudfront.net
 d2gatte9o95jao.cloudfront.net
-dashboard.plex.tv
-dataplicity.com
-def-vef.xboxlive.com
 delivery.vidible.tv
 dev.virtualearth.net
-device.auth.xboxlive.com
 display.ugc.bazaarvoice.com
 displaycatalog.mp.microsoft.com
 dl.delivery.mp.microsoft.com
@@ -221,40 +219,26 @@ dl.dropbox.com
 dl.dropboxusercontent.com
 dns.msftncsi.com
 download.sonarr.tv
-drift.com
-driftt.com
 dynupdate.no-ip.com
 ecn.dev.virtualearth.net
 edge.api.brightcove.com
-eds.xboxlive.com
-fonts.gstatic.com
 forums.sonarr.tv
-g.live.com
 geo-prod.do.dsp.mp.microsoft.com
 geo3.ggpht.com
-giphy.com
 github.com
 github.io
-googleapis.com
 gravatar.com
 @@||gstatic.com^
-help.ui.xboxlive.com
 hls.ted.com
-i.ytimg.com
-i1.ytimg.com
+@@||ytimg.com^
 imagesak.secureserver.net
 img.vidible.tv
 imgix.net
-imgs.xkcd.com
-instantmessaging-pa.googleapis.com
 intercom.io
-jquery.com
 cdn.jsdelivr.net
 keystone.mwbsys.com
 lastfm-img2.akamaized.net
-licensing.xboxlive.com
-live.com
-login.live.com
+@@||live.com^
 login.microsoftonline.com
 manifest.googlevideo.com
 meta-db-worker02.pop.ric.plex.bz
@@ -263,24 +247,17 @@ meta.plex.tv
 microsoftonline.com
 msftncsi.com
 my.plexapp.com
-nexusrules.officeapps.live.com
 npr-news.streaming.adswizz.com
 nine.plugins.plexapp.com
 no-ip.com
 node.plexapp.com
-notify.xboxlive.com
 ns1.dropbox.com
 ns2.dropbox.com
 o1.email.plex.tv
 o2.sg0.plex.tv
 ocsp.apple.com
-office.com
-office.net
-office365.com
 officeclient.microsoft.com
 om.cbsi.com
-onedrive.live.com
-outlook.live.com
 outlook.office365.com
 placehold.it
 placeholdit.imgix.net
@@ -295,10 +272,7 @@ pubsub.plex.tv
 raw.githubusercontent.com
 redirector.googlevideo.com
 res.cloudinary.com
-s.gateway.messenger.live.com
-s.marketwatch.com
 s.youtube.com
-s.ytimg.com
 s1.wp.com
 s2.youtube.com
 s3.amazonaws.com
@@ -306,8 +280,6 @@ sa.symcb.com
 secure.avangate.com
 secure.brightcove.com
 secure.surveymonkey.com
-services.sonarr.tv
-skyhook.sonarr.tv
 spclient.wg.spotify.com
 ssl.p.jwpcdn.com
 staging.plex.tv
@@ -317,11 +289,8 @@ t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
 tawk.to
 tedcdn.com
-themoviedb.com
-thetvdb.com
 tinyurl.com
-title.auth.xboxlive.com
-title.mgt.xboxlive.com
+@@||xboxlive.com^
 traffic.libsyn.com
 tvdb2.plex.tv
 tvthemes.plexapp.com
@@ -334,17 +303,9 @@ win10.ipv6.microsoft.com
 wp.com
 ws.audioscrobbler.com
 www.dataplicity.com
-www.googleapis.com
+@@||googleapis.com^
 www.msftncsi.com
-www.no-ip.com
-www.youtube-nocookie.com
 xbox.ipv6.microsoft.com
-xboxexperiencesprod.experimentation.xboxlive.com
-xflight.xboxlive.com
-xkms.xboxlive.com
-xsts.auth.xboxlive.com
-youtu.be
-youtube-nocookie.com
 yt3.ggpht.com
 zee.cws.conviva.com
 pings.conviva.com
@@ -354,6 +315,7 @@ gfwsl.geforce.com
 appspot-preview.l.google.com
 vidtech.cbsinteractive.com
 continuum.dds.microsoft.com
-connectivitycheck.gstatic.com
 connectivitycheck.android.com
 www.msftconnecttest.com
+use.typekit.net
+@@||pcdn.co^
