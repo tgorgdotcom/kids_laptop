@@ -5,22 +5,22 @@ tgorgdotcom.github.io
 
 ############################# sites we don't need to display on startpage
 minecraft.net
-^[^.]*\.minecraft.net(\/.*)?
+(^|\.)minecraft.net$
 
 ############################# basic items
 pi.hole
 
 ############################# fedora update sites
-^[^.]*\.fwupd\.org(\/.*)?
-^[^.]*\.fedoraproject\.org(\/.*)?
-^[^.]*\.flathub\.org(\/.*)?
-^[^.]*\.kde\.org(\/.*)?
+(^|\.)fwupd\.org$
+(^|\.)fedoraproject\.org$
+(^|\.)flathub\.org$
+(^|\.)kde\.org$
 ^fedora\..*
 ^fedora-mirror\..*
 ^.{0,4}mirror\.?.*
-^[^.]*\.mm.fcix\.net(\/.*)?
-^[^.]*\.osuosl\.org(\/.*)?
-^[^.]*\.mirror\.rackspace\.org(\/.*)?
+(^|\.)mm.fcix\.net$
+(^|\.)osuosl\.org$
+(^|\.)mirror\.rackspace\.org$
 linus.iyte.edu.tr
 distrohub.kyiv.ua
 ^ftp.*
@@ -121,9 +121,7 @@ imgs.xkcd.com
 instantmessaging-pa.googleapis.com
 intercom.io
 jquery.com
-jsdelivr.net
-^[^.]*\.jsdelivr\.net(\/.*)?
-*.jsdelivr.net
+(^|\.)jsdelivr\.net$
 keystone.mwbsys.com
 lastfm-img2.akamaized.net
 licensing.xboxlive.com
