@@ -32,6 +32,7 @@ Pull requests for kid sites to be added are most welcome.
      - Note that this will not remove firefox entry from favorites or taskbar
    - Install Google Chrome<br>
      `flatpak install com.google.Chrome`
+   - Set Chrome to use https://tgorgdotcom.github.io/kids_laptop/ as the new tab page
    - Install malcontent (Parental Control) into ostree<br>
      `sudo rpm-ostree install malcontent malcontent-tools malcontent-control`
    - Place pihole.container in /etc/containers/systemd folder
@@ -45,8 +46,7 @@ Pull requests for kid sites to be added are most welcome.
 4. After reboot, go to the PiHole admin https://pi.hole/admin and login using your password
 5. Add the allowlist url https://raw.githubusercontent.com/tgorgdotcom/kids_laptop/refs/heads/main/whitelist.txt
 6. Disable the builtin "StevenBlack/hosts" blocklist
-7. Add the allow site pi.hole
-8. Add the regex block site all (.*) 
+7. Add the regex block site all (.*) 
 
 ### Adding a child user:
 
@@ -55,7 +55,5 @@ Use childSetup.sh.  It will:
   - Set Screen time (I use 3hrs)
   - Set Bed time (9:00pm)
   - restrict krdc application
-  - restrict installing applications
-  - set app suitability to everyone
-
-Optionally, set your child's browser to go to https://tgorgdotcom.github.io/kids_laptop/
+  - restrict installing flatpak applications
+  - set app suitability (in app store) to everyone

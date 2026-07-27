@@ -21,17 +21,18 @@ bedtimemath.org
 khanacademy.org
 canvas.apps.chrome
 figurethis.nctm.org
-
 ############################# sites that support the kids homepage
 images.unsplash.com
 tgorgdotcom.github.io
 
 ############################# sites we don't need to display on startpage
 minecraft.net
+launcher.mojang.com
 @@||minecraft.net^
 
 ############################# basic items
 pi.hole
+localhost
 
 ############################# fedora update sites
 @@||fwupd.org^
@@ -180,6 +181,10 @@ d2uk5hbyrobdzx.cloudfront.net
 ############################# other sites needed for fedora
 @@||fedora.ntp.org^
 www.gnu.org
+
+############################# misc
+ohttp-relay-safebrowsing-chrome.google.fastly-edge.com
+optimizationguide-pa.googleapis.com
 
 ############################# from https://github.com/anudeepND/whitelist
 0.client-channel.google.com

@@ -11,6 +11,10 @@ sudo update-desktop-database /usr/local/share/applications/
 # install google chrome
 flatpak install com.google.Chrome
 
+# set up chrome policy to use welcome webpage as new tab page
+sudo mkdir -p /etc/opt/chrome/policies/managed
+sudo cp ntp_policy.json /etc/opt/chrome/policies/managed
+
 # install pihole container
 sudo cp pihole.container /etc/containers/systemd
 sudo mkdir /etc/pihole
