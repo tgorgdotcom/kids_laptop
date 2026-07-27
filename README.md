@@ -2,6 +2,8 @@
 
 This is how I'm setting up my kids' laptops.  Maybe you'll find it useful too.
 
+NOTE: super early alpha.  Use with caution.
+
 
 ## Why?
 

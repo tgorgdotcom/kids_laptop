@@ -123,6 +123,7 @@ intercom.io
 jquery.com
 jsdelivr.net
 ^[^.]*\.jsdelivr\.net(\/.*)?
+*.jsdelivr.net
 keystone.mwbsys.com
 lastfm-img2.akamaized.net
 licensing.xboxlive.com
