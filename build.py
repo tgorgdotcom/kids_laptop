@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import re
+import os
 
 
 htmlTemplate = ""
@@ -30,13 +31,15 @@ with open("whitelist.txt", "w") as finalList:
 
             print(f"Getting info for {domainName}...")
 
-            try:
-                urllib.request.urlretrieve(f"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={remote_url}&size=256", local_path)
-            except Exception as err:
-                #try to save the default icon
-                if hasattr(err, 'code') and (err.code == 404):
-                    with open(local_path, "wb") as missingIconFile:
-                        missingIconFile.write(err.fp.read())
+            # Skip if we already have an image
+            if not os.path.exists(local_path):
+                try:
+                    urllib.request.urlretrieve(f"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={remote_url}&size=256", local_path)
+                except Exception as err:
+                    #try to save the default icon
+                    if hasattr(err, 'code') and (err.code == 404):
+                        with open(local_path, "wb") as missingIconFile:
+                            missingIconFile.write(err.fp.read())
 
 
             homepageReq = urllib.request.Request(remote_url, headers=homepageReqHeaders)
