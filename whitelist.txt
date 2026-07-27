@@ -173,9 +173,11 @@ pubmirror1.math.uh.edu
 pubmirror2.math.uh.edu
 fedora.as3741.net
 mirror.za.abantu.cloud
+d2uk5hbyrobdzx.cloudfront.net
 
-############################# time servers
-fedora.ntp.org
+############################# other sites needed for fedora
+@@||fedora.ntp.org^
+www.gnu.org
 
 ############################# from https://github.com/anudeepND/whitelist
 0.client-channel.google.com
