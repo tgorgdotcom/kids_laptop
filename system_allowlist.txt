@@ -17,6 +17,7 @@ pi.hole
 @@||flathub.org^
 @@||kde.org^
 @@||mirrors.cicku.me^
+mirrors.rpmfusion.org
 mirror.alwyzon.net
 fedora.melbourneitmirror.net
 ftp.iinet.net.au
