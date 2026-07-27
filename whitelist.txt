@@ -28,17 +28,17 @@ tgorgdotcom.github.io
 
 ############################# sites we don't need to display on startpage
 minecraft.net
-||minecraft.net^
+@@||minecraft.net^
 
 ############################# basic items
 pi.hole
 
 ############################# fedora update sites
-||fwupd.org^
-||fedoraproject.org^
-||flathub.org^
-||kde.org^
-||mirrors.cicku.me^
+@@||fwupd.org^
+@@||fedoraproject.org^
+@@||flathub.org^
+@@||kde.org^
+@@||mirrors.cicku.me^
 mirror.alwyzon.net
 fedora.melbourneitmirror.net
 ftp.iinet.net.au
@@ -101,9 +101,9 @@ fedora.mirror.garr.it
 ftp.iij.ad.jp
 ftp.iij.ad.jp
 ftp.yz.yamagata-u.ac.jp
-||mm.fcix.net^
-||osuosl.org^
-||mirror.rackspace.org^
+@@||mm.fcix.net^
+@@||osuosl.org^
+@@||mirror.rackspace.org^
 linus.iyte.edu.tr
 distrohub.kyiv.ua
 repo.fedora.md
@@ -250,7 +250,7 @@ github.com
 github.io
 googleapis.com
 gravatar.com
-||gstatic.com^
+@@||gstatic.com^
 help.ui.xboxlive.com
 hls.ted.com
 i.ytimg.com
