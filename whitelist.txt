@@ -35,6 +35,7 @@ pi.hole
 
 ############################# fedora update sites
 @@||fwupd.org^
+@@||fedorainfracloud.org
 @@||fedoraproject.org^
 @@||flathub.org^
 @@||kde.org^
