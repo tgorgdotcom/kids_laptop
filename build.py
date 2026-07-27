@@ -69,13 +69,6 @@ with open("whitelist.txt", "w") as finalList:
     with open("system_allowlist.txt", "r") as systemList:
         finalList.write(systemList.read())
 
-unsplash_api = input("Please enter the unsplash API key: ")
-random_image = ""
-
-# look for the title of the homepage
-with urllib.request.urlopen(f"https://api.unsplash.com/photos/random?client_id={unsplash_api}&orientation=landscape&content_filter=high&query=fun%20backgrounds") as response:
-    randomImageResult = json.loads(response.read())
-
 with open("index.html", "w") as startFile:
-    completedFile = htmlTemplate.replace("{site_list}", renderedSites).replace("{random_image}", randomImageResult['urls']['regular']).replace("{artist_name}", randomImageResult['user']['username'])
+    completedFile = htmlTemplate.replace("{site_list}", renderedSites)
     startFile.write(completedFile)
