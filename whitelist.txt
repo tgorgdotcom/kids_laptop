@@ -387,3 +387,5 @@ logincdn.msauth.net
 ms-sso.copilot.microsoft.com
 @@||xboxab.com^
 @@||cfp.microsoft.com^
+@@||youtube-nocookie.com^
+@@||azurewebsites.net^
