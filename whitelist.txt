@@ -389,3 +389,5 @@ ms-sso.copilot.microsoft.com
 @@||cfp.microsoft.com^
 @@||youtube-nocookie.com^
 @@||azurewebsites.net^
+@@||gvt3.com^
+@@||gvt2.com^
