@@ -359,3 +359,9 @@ maxcdn.bootstrapcdn.com
 @@||infopls.com^
 @@||2mdn.net^
 kids.pbs-video.pbs.org
+ms-sso.copilot.com
+api.minecraftservices.com
+logincdn.msauth.net
+ms-sso.copilot.microsoft.com
+@@||xboxab.com^
+@@||cfp.microsoft.com^
