@@ -28,8 +28,7 @@ tgorgdotcom.github.io
 ############################# sites we don't need to display on startpage
 minecraft.net
 @@||minecraft.net^
-launcher.mojang.com
-launchermeta.mojang.com
+@@||mojang.com^
 csforall.org
 assets-cdn.nationalgeographic.com
 @@||pais.scholastic.com^
@@ -49,7 +48,6 @@ dcf.espn.com
 @@||cws.conviva.com^
 cdn.plyr.io
 api.readalong.ai
-piston-meta.mojang.com
 
 ############################# youtube (use with restricted mode for kid-safe stuff)
 @@||youtube.com^
