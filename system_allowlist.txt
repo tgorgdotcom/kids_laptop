@@ -180,7 +180,7 @@ fedora.as3741.net
 mirror.za.abantu.cloud
 
 ############################# other sites needed for fedora
-@||pool.ntp.org^
+@@||pool.ntp.org^
 www.gnu.org
 
 ############################# misc
@@ -345,4 +345,4 @@ cdn.disneyaccount.com
 cdn.espn.com
 disney.demdes.net
 sw88.nationalgeographic.com
-@@||media.dssott.com
+@@||media.dssott.com^
