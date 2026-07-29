@@ -49,8 +49,10 @@ dcf.espn.com
 cdn.plyr.io
 api.readalong.ai
 
-############################# youtube (use with restricted mode for kid-safe stuff)
+############################# youtube and google (use with restricted/safesearch mode for kid-safe stuff)
 @@||youtube.com^
+www.google.com
+forcesafesearch.google.com
 
 ############################# basic items
 pi.hole
@@ -366,7 +368,6 @@ cdn.espn.com
 disney.demdex.net
 sw88.nationalgeographic.com
 @@||media.dssott.com^
-www.google.com
 @@||edgedatg.com^
 cdn.jwplayer.com
 @@||osano.com^
