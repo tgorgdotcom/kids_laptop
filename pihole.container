@@ -3,7 +3,7 @@ Description=Pihole container using Podman
 After=local-fs.target
 
 [Container]
-Image=pihole/pihole:latest
+Image=docker.io/pihole/pihole:latest
 Volume=/etc/pihole:/etc/pihole:Z
 ExposeHostPort=53/tcp
 ExposeHostPort=53/udp

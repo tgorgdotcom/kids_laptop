@@ -2,7 +2,7 @@
 
 This is how I'm setting up my kids' laptops.  Maybe you'll find it useful too.
 
-NOTE: super early alpha.  Use with caution.
+NOTE: super early beta.  Use with caution, and please report any bugs you find.
 
 
 ## Why?
@@ -26,7 +26,11 @@ Pull requests for kid sites to be added are most welcome.
 
 1. Install Fedora Kinote (check around the web for instructions - it's pretty much the same as other Linux distros)
 2. Setup an internet connection
-3. Run included setup.sh.  It will:
+3. Download the files from this repository (use the "Code" button > download zip file)
+4. Unzip file
+5. Make the setup.sh, setup2.sh, and childSetup scripts executable
+   `chmod +x <script_filename>`
+6. Run included setup.sh.  It will:
    - Remove Firefox icon (just a preference)<br>
      https://docs.fedoraproject.org/en-US/atomic-desktops/tips-and-tricks/#_hiding_the_default_browser_firefox
      - Note that this will not remove firefox entry from favorites or taskbar
@@ -43,20 +47,19 @@ Pull requests for kid sites to be added are most welcome.
    - Make system use pihole for DNS
    - Reboot
 
-4. Run included setup2.sh.  It will:
+7. Run included setup2.sh.  It will:
    - Add the allowlist url https://raw.githubusercontent.com/tgorgdotcom/kids_laptop/refs/heads/main/whitelist.txt
    - Disable the builtin "StevenBlack/hosts" blocklist
    - Add the regex block site all (.*) 
-   - In Settings > Local DNS settings add the following settings to make sure Youtube runs in restricted mode
+   - In Settings > Local DNS settings add the following settings to make sure Youtube runs in restricted mode and Google in safesearch
      www.youtube.com             restrict.youtube.com
      m.youtube.com               restrict.youtube.com
      youtubei.googleapis.com     restrict.youtube.com
      youtube.googleapis.com      restrict.youtube.com
      www.youtube-nocookie.com    restrict.youtube.com
+     www.google.com              forcesafesearch.google.com
 
-### Adding a child user:
-
-Use childSetup.sh.  It will:
+8. Adding a child user: Use childSetup.sh.  It will:
   - Create the child user
   - Set Screen time (I use 3hrs)
   - Set Bed time (9:00pm)

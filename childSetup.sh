@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # create new child
-read -rp "Enter child username=" \ user_name
+read -r -p "Enter child username: " user_name
 sudo useradd $user_name
 sudo passwd $user_name
 
 # setup app filter
-malcontent-client set-app-filter $user_name \
+sudo malcontent-client set-app-filter $user_name \
 --disallow-user-installation \
 --disallow-system-installation \
 app/org.kde.krdc/x86_64/stable \
@@ -40,6 +40,5 @@ violence-slavery=none \
 violence-worship=none
 
 # set for 3 hours daily limit and end at 9pm
-malcontent-client set-session-limits $user_name \
-daily-limit --daily-limit 10800 \
-daily-schedule --start-time 3 --end-time 21
+sudo malcontent-client set-session-limits $user_name daily-limit --daily-limit 10800
+sudo malcontent-client set-session-limits $user_name daily-schedule --start-time 03 --end-time 21
