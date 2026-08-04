@@ -52,17 +52,17 @@ Pull requests for kid sites to be added are most welcome.
    - Disable the builtin "StevenBlack/hosts" blocklist
    - Add the regex block site all (.*) 
    - In Settings > Local DNS settings add the following settings to make sure Youtube runs in restricted mode and Google in safesearch
-     www.youtube.com             restrict.youtube.com
-     m.youtube.com               restrict.youtube.com
-     youtubei.googleapis.com     restrict.youtube.com
-     youtube.googleapis.com      restrict.youtube.com
-     www.youtube-nocookie.com    restrict.youtube.com
-     www.google.com              forcesafesearch.google.com
+     W- www.youtube.com  -->  restrict.youtube.com
+      - m.youtube.com  -->  restrict.youtube.com
+      - youtubei.googleapis.com  -->  restrict.youtube.com
+      - youtube.googleapis.com  -->  restrict.youtube.com
+      - www.youtube-nocookie.com  -->  restrict.youtube.com
+      - www.google.com  -->  forcesafesearch.google.com
 
 8. Adding a child user: Use childSetup.sh.  It will:
-  - Create the child user
-  - Set Screen time (I use 3hrs)
-  - Set Bed time (9:00pm)
-  - restrict krdc application
-  - restrict installing flatpak applications
-  - set app suitability (in app store) to everyone
+   - Create the child user
+   - Set Screen time (I use 3hrs)
+   - Set Bed time (9:00pm)
+   - restrict krdc application
+   - restrict installing flatpak applications
+   - set app suitability (in app store) to everyone
