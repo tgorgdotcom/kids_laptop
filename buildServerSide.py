@@ -125,6 +125,11 @@ if "sites" in buildlist:
         
         index += 1
 
+    # on a site list with the last row not exactly being 6 items wide, make sure
+    # to put the closing div
+    if index % 6 != 0:
+        renderedSites = renderedSites + "</div>\n"
+
 if "system" in buildlist:
     processDomainNames(buildlist["system"])
 
