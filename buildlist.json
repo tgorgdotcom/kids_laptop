@@ -1,0 +1,572 @@
+{
+    "sites": [
+        { 
+            "url":"https://discovertheforest.org",
+            "title": "Discover The Forest",
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://crayola.com",
+            "title": "Crayola | Products, Coloring Pages, Crafts &amp; More",
+            "requiredDomains": [
+                "api.ipstack.com",
+                "cdn.cookielaw.org",
+                "cdnjs.cloudflare.com",
+                "geolocation.onetrust.com",
+                "mediacdn.espssl.com",
+                "privacyportal.onetrust.com",
+                "w.likebtn.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://docs.google.com",
+            "title": "Google Docs",
+            "requiredDomains": [
+                "accounts.google.com",
+                "addons-pa.clients6.google.com",
+                "apis.google.com",
+                "appsgenaiserver-pa.clients6.google.com",
+                "appsgrowthpromo-pa.clients6.google.com",
+                "clients6.google.com",
+                "contacts.google.com",
+                "csp.withgoogle.com",
+                "drivefrontend-pa.clients6.google.com",
+                "espresso-pa.clients6.google.com",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "lh3.google.com",
+                "lh3.googleusercontent.com",
+                "ogs.google.com",
+                "people-pa.clients6.google.com",
+                "peoplestack-pa.clients6.google.com",
+                "peoplestackwebexperiments-pa.clients6.google.com",
+                "signaler-pa.clients6.google.com",
+                "ssl.gstatic.com",
+                "www.gstatic.com",
+                "waa-pa.clients6.google.com"
+            ]
+        },
+        { 
+            "url":"https://engineerteen.org",
+            "title": "EngineerTeen",
+            "requiredDomains": [
+                "ajax.googleapis.com",
+                "alb.reddit.com",
+                "www.google.com",
+                "connect.facebook.net",
+                "engineeringteenstore.blob.core.windows.net",
+                "et.hub.milieugravity.com",
+                "files.azure82.diamax.com",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "collaborate.togglemedia.com",
+                "gravitystaticcomponents.z13.web.core.windows.net",
+                "milieugravityapi.azurewebsites.net",
+                "p.typekit.net",
+                "use.typekit.net"
+            ]
+        },
+        { 
+            "url":"https://thetoymaker.com",
+            "title": "The Toymaker",
+            "requiredDomains": [
+                "c5.patreon.com",
+                "c6.patreon.com",
+                "fonts.googleapis.com",
+                "www.patreon.com",
+                "www.paypal.com",
+                "www.paypalobjects.com"
+            ]
+        },
+        { 
+            "url":"https://scratch.mit.edu",
+            "title": "Scratch - Imagine, Program, Share",
+            "requiredDomains": [
+                "distillery.wistia.com",
+                "embed-cloudfront.wistia.com",
+                "embed-ssl.wistia.com",
+                "fast.wistia.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://timeforkids.com",
+            "title": "TIME for Kids",
+            "requiredDomains": [
+                "api.readalong.ai",
+                "cdn.cookielaw.org",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "geolocation.onetrust.com",
+                "mages.ctfassets.net",
+                "audio.emagazines.com",
+                "assets.emagazines.com"
+            ],
+            "subGroups": [
+                "jwPlayer"
+            ]
+        },
+        { 
+            "url":"https://pocoyo.com",
+            "title": "Watch Pocoyo Videos, Play Games, Learn &amp; Create",
+            "requiredDomains": [
+                "a.klaviyo.com",
+                "cdn.jsdelivr.net",
+                "cdn.plyr.io",
+                "cdn.prod.website-files.com",
+                "d3e54v103j8qbb.cloudfront.net",
+                "fonts.gstatic.com",
+                "fonts.googleapis.com",
+                "mpc-prod-24-s6uit34pua-uw.a.run.app",
+                "use.typekit.net",
+                "www.kidsafeseal.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://kids.nationalgeographic.com",
+            "title": "National Geographic Kids",
+            "requiredDomains": [
+                "27f19c7c68e3eadf7756fb7efdb661dd8909acf9.cws.conviva.com",
+                "27f19c7c68e3eadf7756fb7efdb661dd8909acf9.ipv4.cws.conviva.com",
+                "27f19c7c68e3eadf7756fb7efdb661dd8909acf9.ipv6.cws.conviva.com",
+                "assets-cdn.nationalgeographic.com",
+                "cdn.cookielaw.org",
+                "cdn.disneyaccount.com",
+                "cdn.espn.com",
+                "client-sdk-configs.bamgrid.com",
+                "cmp-natgeo.media.dssott.com",
+                "dcf.espn.com",
+                "disney-entertainment.api.edge.bamgrid.com",
+                "disney-entertainment.connections.edge.bamgrid.com",
+                "disney.demdex.net",
+                "hiveplayer-static.bamgrid.com",
+                "i.natgeofe.com",
+                "pcs.bamgrid.com",
+                "static-assets.bamgrid.com",
+                "sw88.nationalgeographic.com",
+                "watch.auth.api.espn.com"
+            ]
+        },
+        { 
+            "url":"https://code.org",
+            "title": "Free K-12 Curriculum for Digital Fluency | CodeAI",
+            "requiredDomains": [
+                "cdn.cookielaw.org",
+                "docs.google.com",
+                "doublethedonation.com",
+                "featureassets.org",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "geolocation.onetrust.com",
+                "global.localizecdn.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://hourofcode.com",
+            "title": "The Hour of AI",
+            "requiredDomains": [
+                "cdn.cookielaw.org",
+                "contentful-images.code.org",
+                "csforall.org",
+                "dms.licdn.com",
+                "dsco.code.org",
+                "featureassets.org",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "geolocation.onetrust.com",
+                "global.localizecdn.com",
+                "media.licdn.com",
+                "scontent-phl2-1.cdninstagram.com",
+                "static.cdninstagram.com",
+                "static.licdn.com",
+                "www.gstatic.com",
+                "www.instagram.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://sesamestreet.org",
+            "title": "Sesame Street | Preschool Games, Videos, &amp; Coloring Pages",
+            "requiredDomains": [
+                "cdnjs.cloudflare.com",
+                "interactive.sesameonline.net",
+                "www.google.com"
+            ],
+            "subGroups": [
+                "jwPlayer"
+            ]
+        },
+        { 
+            "url":"https://kids.scholastic.com",
+            "title": "Kids Books, Games, Videos | Children&#39;s Books | Scholastic Kids",
+            "requiredDomains": [
+                "cdn.cookielaw.org",
+                "cdn.jsdelivr.net",
+                "cdnjs.cloudflare.com",
+                "cf.cdn.uplynk.com",
+                "content-ausw2-up-1.uplynk.com",
+                "content.uplynk.com",
+                "ds-product-api.scholastic.com",
+                "embed.cdn.pais.scholastic.com",
+                "fonts.googleapis.com",
+                "geolocation.onetrust.com",
+                "p.typekit.net",
+                "ltm.scholastic.com",
+                "privacyportal.onetrust.com",
+                "use.typekit.net",
+                "vjs.zencdn.net"
+            ]
+        },
+        { 
+            "url":"https://factmonster.com",
+            "title": "factmonster.com",
+            "requiredDomains": [
+                "brunhild.challenges.cloudflare.com",
+                "cdn.video.playwire.com",
+                "challenges.cloudflare.com",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "i.infopls.com",
+                "maxcdn.bootstrapcdn.com",
+                "raw.githubusercontent.com",
+                "res.cloudinary.com"
+            ]
+        },
+        { 
+            "url":"https://planetpals.com",
+            "title": "We love Earth! Learn to be a Planetpal."
+        },
+        { 
+            "url":"https://pbskids.org",
+            "title": "PBS KIDS",
+            "requiredDomains": [
+                "urs.pbs.org",
+                "cms-assets.prod.pbskids.org",
+                "graph.services.pbskids.org",
+                "kids.pbs-video.pbs.org",
+                "qoe.pbskids.org",
+                "springroll-tc.pbskids.org"
+            ]
+        },
+        { 
+            "url":"https://bedtimemath.org",
+            "title": "Bedtime Math &#8211; Making math relevant so kids want to learn it.",
+            "requiredDomains": [
+                "ajax.googleapis.com",
+                "crazy8sclub.org",
+                "fonts.googleapis.com",
+                "math-rocks.org",
+                "@@||pcdn.co^",     // just pcdn.co, not pcdn.com
+                "www.paypalobjects.com"
+            ]
+        },
+        { 
+            "url":"https://khanacademy.org",
+            "title": "Khan Academy",
+            "requiredDomains": [
+                "a.omappapi.com",
+                "ajax.googleapis.com",
+                "api.omappapi.com",
+                "cdn.cookielaw.org",
+                "cdn.kastatic.org",
+                "cdn.prod.website-files.com",
+                "d3e54v103j8qbb.cloudfront.net",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "geolocation.onetrust.com",
+                "privacyportal.onetrust.com",
+                "toolbox.marketingtools.apple.com",
+                "tools.applemediaservices.com",
+                "www.kasandbox.org",
+                "z.omappapi.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
+            "url":"https://canvas.apps.chrome",
+            "title": "Google Canvas | Drawing App",
+            "requiredDomains": [
+                "accounts.google.com",
+                "apis.google.com",
+                "csp.withgoogle.com",
+                "drawing-pa.googleapis.com",
+                "feedback-pa.clients6.google.com",
+                "fonts.googleapis.com",
+                "fonts.gstatic.com",
+                "www.google.com"
+            ]
+        },
+        { 
+            "url":"https://figurethis.nctm.org",
+            "title": "Figure This! Math Challenges for Families",
+            "requiredDomains": [
+                "cdnjs.cloudflare.com"
+            ]
+        }
+    ],
+    "system": {
+        "requiredDomains": [
+            "ohttp-relay-safebrowsing-chrome.google.fastly-edge.com",
+            "pi.hole",
+            "localhost",
+            "images.unsplash.com",
+            "tgorgdotcom.github.io",
+            "github.com",                   // necessary for updating the whitelist
+            "github.io",
+            "raw.githubusercontent.com",
+            "forcesafesearch.google.com",
+            "@@||pool.ntp.org^",            // for time updating
+            "www.gnu.org"                   // for checking internet connectivity in kde
+        ],
+        "subGroups": [
+            "fedoraUpdate",
+            "microsoft",
+            "minecraft",
+            "minecraftMods",
+            "cloudflare",
+            "wirelessNetworkCheck"
+        ]
+    },
+    "subGroups": {
+        "embeddedYoutube": [
+            "ssl.gstatic.com",
+            "fonts.gstatic.com",
+            "i.ytimg.com",
+            "jnn-pa.googleapis.com",
+            "@@||googlevideo.com^",
+            "www.google.com",
+            "www.gstatic.com",
+            "www.youtube.com",
+            "www.youtube-nocookie.com",
+            "yt3.ggpht.com",
+            "noembed.com"
+        ],
+        "jwPlayer": [
+            "www.gstatic.com",      // for google cast api
+            "assets-jpcust.jwpsrv.com",
+            "cdn.jwplayer.com",
+            "entitlements.jwplayer.com",
+            "prd.jwpltx.com",
+            "ssl.p.jwpcdn.com",
+            "videos-cloudfront-usp.jwpsrv.com"
+        ],
+        "microsoft": [
+            "@@||azurewebsites.com^",
+            "@@||azureedge.net^",
+            "@@||core.windows.net^",
+            "@@||data.microsoft.com^",
+            "@@||azurewebsites.net^",
+            "aspnetcdn.com",
+            "msauth.net",
+            "logincdn.msauth.net",
+            "ms-sso.copilot.microsoft.com",
+            "@@||xboxab.com^",
+            "@@||cfp.microsoft.com^",
+            "@@||xboxlive.com^",
+            "@@||live.com^",
+            "www.msftncsi.com",
+            "xbox.ipv6.microsoft.com",
+            "msftauth.net",
+            "c.s-microsoft.com",
+            "displaycatalog.mp.microsoft.com",
+            "dl.delivery.mp.microsoft.com",
+            "1drv.com",
+            "apps.skype.com",
+            "dns.msftncsi.com",
+            "geo-prod.do.dsp.mp.microsoft.com",
+            "login.microsoftonline.com",
+            "microsoftonline.com",
+            "msftncsi.com",
+            "officeclient.microsoft.com",
+            "pricelist.skype.com",
+            "products.office.com",
+            "ui.skype.com",
+            "win10.ipv6.microsoft.com",
+            "continuum.dds.microsoft.com",
+            "ms-sso.copilot.com"
+        ],
+        "minecraft": [
+            "@@||minecraft.net^",
+            "@@||mojang.com^",
+            "api.minecraftservices.com"
+        ],
+        "minecraftMods": [
+            "prismlauncher.org",
+            "api.curseforge.com",
+            "api.modrinth.com"
+        ],
+        "cloudflare": [
+            "cloudflare-dns.com",
+            "@@||challenges.cloudflare.com^",
+            "@@||cloudfront.net^",
+            "cdn.cloudflare.net",
+            "cdnjs.cloudflare.com",
+            "stun.cloudflare.com",
+            "@@||nel.cloudflare.com^"
+        ],
+        "fedoraUpdate": [
+            "@@||fwupd.org^",
+            "@@||fedorainfracloud.org^",
+            "@@||fedoraproject.org^",
+            "@@||flathub.org^",
+            "@@||kde.org^",
+            "@@||mirrors.cicku.me^",
+            "mirrors.rpmfusion.org",
+            "mirror.alwyzon.net",
+            "fedora.melbourneitmirror.net",
+            "ftp.iinet.net.au",
+            "ftp.swin.edu.au",
+            "mirror.aarnet.edu.au",
+            "fedora.mirror-services.net",
+            "fedora.ipacct.com",
+            "mirror.host.ag",
+            "mirrors.neterra.net",
+            "mirrors.netix.net",
+            "mirror.telepoint.bg",
+            "fedora.c3sl.ufpr.br",
+            "mirror.cpsc.ucalgary.ca",
+            "mirror.dst.ca",
+            "mirror.xenyth.net",
+            "muug.ca",
+            "linuxsoft.cern.ch",
+            "mirror.init7.net",
+            "mirror.nyist.edu.cn",
+            "mirrors.bfsu.edu.cn",
+            "mirrors.huaweicloud.com",
+            "mirrors.jlu.edu.cn",
+            "mirrors.tuna.tsinghua.edu.cn",
+            "mirrors.ustc.edu.cn",
+            "mirror.karneval.cz",
+            "mirror.slu.cz",
+            "ftp.uni-bayreuth.de",
+            "ftp.uni-kl.de",
+            "ftp.uni-stuttgart.de",
+            "mirror.23m.com",
+            "mirror.de.leaseweb.net",
+            "mirror.dogado.de",
+            "mirror.imt-systems.com",
+            "mirror.netzwerge.de",
+            "mirror.plusline.net",
+            "mirror.rabisu.com",
+            "mirrors.n-ix.net",
+            "mirrors.xtom.de",
+            "mirror.group.one",
+            "mirror.netsite.dk",
+            "mirror.cedia.org.ec",
+            "mirrors.xtom.ee",
+            "ftp.cica.es",
+            "mirror.raiolanetworks.com",
+            "ftp.funet.fi",
+            "fedora.tu-chemnitz.de",
+            "ftp.agdsn.de",
+            "ftp.fau.de",
+            "ftp-stud.hs-esslingen.de",
+            "fr2.rpmfind.net",
+            "mirror.in2p3.fr",
+            "divergentnetworks.mm.fcix.net",
+            "fedora.mirrorservice.org",
+            "mirror.cov.ukservers.com",
+            "mirrors.20i.com",
+            "ftp.otenet.gr",
+            "mirror.gi.co.id",
+            "fedora.is",
+            "fedora.mirror.garr.it",
+            "ftp.iij.ad.jp",
+            "ftp.iij.ad.jp",
+            "ftp.yz.yamagata-u.ac.jp",
+            "@@||mm.fcix.net^",
+            "@@||osuosl.org^",
+            "@@||mirror.rackspace.org^",
+            "linus.iyte.edu.tr",
+            "distrohub.kyiv.ua",
+            "repo.fedora.md",
+            "eu.edge.kernel.org",
+            "distrib-coffee.ipsl.jussieu.fr",
+            "linux.yz.yamagata-u.ac.jp",
+            "fedora.mirror.liquidtelecom.com",
+            "fedora-secondary.mirror.liquidtelecom.com",
+            "ftp.kaist.ac.kr",
+            "mirror.siwoo.org",
+            "mirror.hoster.kz",
+            "mirror.ps.kz",
+            "mirror.vpsnet.com",
+            "fedora.mirror.root.lu",
+            "ftp.linux.edu.lv",
+            "mirrors.ipserverone.com",
+            "fedora.mirror.wearetriple.com",
+            "mirror.i3d.net",
+            "mirror.liteserver.nl",
+            "mirror.netone.nl",
+            "mirror.nl.leaseweb.net",
+            "mirrors.hostiserver.com",
+            "mirror.rise.ph",
+            "mirror.flo.c-f.ro",
+            "mirrors.chroot.ro",
+            "mirrors.nxthost.com",
+            "mirror.etf.bg.ac.rs",
+            "mirror.yandex.ru",
+            "mirror.bahnhof.net",
+            "mirror.freedif.org",
+            "linus.iyte.edu.tr",
+            "fedora.cs.nycu.edu.tw",
+            "mirror.twds.com.tw",
+            "fedora.ip-connect.info",
+            "fedora.ip-connect.vn.ua",
+            "repo.hyron.dev",
+            "atl.mirrors.knownhost.com",
+            "fedora-mirror-atl.gigsouth.com",
+            "fedora.mirror.constant.com",
+            "ftp.usf.edu",
+            "repo.ialab.dsu.edu",
+            "mirror.cs.odu.edu",
+            "mirror.cs.princeton.edu",
+            "mirror.cs.siue.edu",
+            "mirror.ette.biz",
+            "mirror.fcix.net",
+            "mirrorfedora.math.princeton.edu",
+            "mirror.lstn.net",
+            "mirror-mci.yuki.net.uk",
+            "mirror.nodesdirect.com",
+            "mirror.pilotfiber.com",
+            "mirrorsecondary.math.princeton.edu",
+            "mirror.servaxnet.com",
+            "mirror.sfo12.us.leaseweb.net",
+            "mirror.shomepower.com",
+            "mirrors.lug.mtu.edu",
+            "mirrors.mit.edu",
+            "mirrors.oit.uci.edu",
+            "mirrors.rc.rit.edu",
+            "mirrors.xmission.com",
+            "mirror.uoregon.edu",
+            "mirror.us.leaseweb.net",
+            "mirror.us.mirhosting.net",
+            "mirror.web-ster.com",
+            "packages.oit.ncsu.edu",
+            "pubmirror1.math.uh.edu",
+            "pubmirror2.math.uh.edu",
+            "fedora.as3741.net",
+            "mirror.za.abantu.cloud"
+        ],
+        "wirelessNetworkCheck": [
+            "www.msftconnecttest.com",
+            "connectivitycheck.android.com"
+        ]
+    }
+}

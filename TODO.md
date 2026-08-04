@@ -1,3 +1,0 @@
-- convert the current kids_allowlist.txt into a json with:
-  - manually written description
-  - list of external sites that are needed
