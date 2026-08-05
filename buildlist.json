@@ -420,7 +420,9 @@
             "cdn.modrinth.com",
             "api.technicpack.net",
             "gitlab.com",
-            "maven.neoforged.net"
+            "maven.neoforged.net",
+            "user.auth.xboxlive.com.akadns.net",
+            "files.prismlauncher.org"
         ],
         "cloudflare": [
             "cloudflare-dns.com",
@@ -572,7 +574,8 @@
             "pubmirror1.math.uh.edu",
             "pubmirror2.math.uh.edu",
             "fedora.as3741.net",
-            "mirror.za.abantu.cloud"
+            "mirror.za.abantu.cloud",
+            "dl.google.com"
         ],
         "wirelessNetworkCheck": [
             "www.msftconnecttest.com",
