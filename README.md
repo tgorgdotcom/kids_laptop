@@ -52,7 +52,7 @@ Pull requests for kid sites to be added are most welcome.
    - Disable the builtin "StevenBlack/hosts" blocklist
    - Add the regex block site all (.*) 
    - In Settings > Local DNS settings add the following settings to make sure Youtube runs in restricted mode and Google in safesearch
-     W- www.youtube.com  -->  restrict.youtube.com
+      - www.youtube.com  -->  restrict.youtube.com
       - m.youtube.com  -->  restrict.youtube.com
       - youtubei.googleapis.com  -->  restrict.youtube.com
       - youtube.googleapis.com  -->  restrict.youtube.com

@@ -400,7 +400,8 @@
             "ui.skype.com",
             "win10.ipv6.microsoft.com",
             "continuum.dds.microsoft.com",
-            "ms-sso.copilot.com"
+            "ms-sso.copilot.com",
+            "xsts.auth.xboxlive.com.akadns.net"
         ],
         "minecraft": [
             "@@||minecraft.net^",
@@ -410,7 +411,16 @@
         "minecraftMods": [
             "prismlauncher.org",
             "api.curseforge.com",
-            "api.modrinth.com"
+            "api.modrinth.com",
+            "meta.prismlauncher.org",
+            "download.nodecdn.net",
+            "media.forgecdn.net",
+            "api.feed-the-beast.com",
+            "dist.creeper.host",
+            "cdn.modrinth.com",
+            "api.technicpack.net",
+            "gitlab.com",
+            "maven.neoforged.net"
         ],
         "cloudflare": [
             "cloudflare-dns.com",
