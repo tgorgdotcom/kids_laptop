@@ -337,6 +337,9 @@ api.modrinth.com
 meta.prismlauncher.org
 download.nodecdn.net
 media.forgecdn.net
+edge.forgecdn.net
+mediafilez.forgecdn.net
+ioriver.map.fastly.net
 api.feed-the-beast.com
 dist.creeper.host
 cdn.modrinth.com
