@@ -1,6 +1,23 @@
 {
     "sites": [
         { 
+            "url":"https://play.blooket.com",
+            "title": "Play Blooket",
+            "requiredDomains": [
+                "blooket.com",
+                "cdn-cookieyes.com",
+                "cookieyes.com",
+                "accounts.google.com",
+                "fonts.gstatic.com",
+                "unpkg.com",
+                "www.google.com",
+                "www.gstatic.com"
+            ],
+            "subGroups": [
+                "embeddedYoutube"
+            ]
+        },
+        { 
             "url":"https://discovertheforest.org",
             "title": "Discover The Forest",
             "subGroups": [

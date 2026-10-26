@@ -105,7 +105,7 @@ if "sites" in buildlist:
         # Skip if we already have an image
         if not os.path.exists(local_path):
             try:
-                urllib.request.urlretrieve(f"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={remote_url}&size=256", local_path)
+                urllib.request.urlretrieve(f"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={buildSite["url"]}&size=256", local_path)
             except Exception as err:
                 #try to save the default icon
                 if hasattr(err, 'code') and (err.code == 404):
